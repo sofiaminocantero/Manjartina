@@ -1,0 +1,21 @@
+{
+  "name": "preentrega3minocantero",
+  "version": "1.0.0",
+  "description": "por: Sofía Belén Miño Cantero.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/style.scss style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiaminocantero/Manjartina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiaminocantero/Manjartina/issues"
+  },
+  "homepage": "https://github.com/sofiaminocantero/Manjartina#readme"
+}
